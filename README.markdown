@@ -28,7 +28,9 @@ Installation
 
 Install Redigo using the "go get" command:
 
-    go get github.com/gomodule/redigo/redis
+    # go get github.com/gomodule/redigo/redis
+    go get -u -v github.com/readisgo/redisgo/redis
+
 
 The Go distribution is Redigo's only dependency.
 
